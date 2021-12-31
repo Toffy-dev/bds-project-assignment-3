@@ -1,4 +1,0 @@
-logout button
-dont keep changes employee update
-registrace uzivatele při špatném zadání čísla počínaje jedničkou registrace projde ale nezapáše se do databaze
-
