@@ -44,8 +44,8 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     'customer.apps.CustomerConfig',
     'employee.apps.EmployeeConfig',
-    # TODO change to customer and employee
-    'register.apps.RegisterConfig',
+    'transaction.apps.TransactionConfig',
+    'detailview.apps.DetailviewConfig',
 ]
 
 MIDDLEWARE = [

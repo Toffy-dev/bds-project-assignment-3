@@ -43,7 +43,7 @@ class Customer(AbstractBaseUser):
     date_joined = models.DateTimeField(
         verbose_name='date joined', auto_now_add=True)
     last_login = models.DateTimeField(verbose_name='last login', auto_now=True)
-    balance = models.IntegerField(null=True)
+    balance = models.PositiveIntegerField(null=True)
 
     is_admin = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
@@ -124,7 +124,6 @@ class Order_menu(models.Model):
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
     address = models.ForeignKey(Address, on_delete=models.CASCADE)
     is_done = models.BooleanField(default=False)
-    created_at = models.DateTimeField(auto_now_add=True)
 
 class Order_type(models.Model):
     order_type = models.CharField(max_length=30)

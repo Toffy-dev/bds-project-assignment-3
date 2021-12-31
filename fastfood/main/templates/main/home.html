@@ -2,6 +2,12 @@
 {% block title %} Fast Food {% endblock %}
 {% block content %}
 <h1> Welcome </h1>
-<p>would you like some food</p>
+{% if user.is_authenticated %}
+<p>You are logged in</p>
+{% else %}
+<p>Please register or log in</p>
+{% endif %}
+
+
 
 {% endblock %}
