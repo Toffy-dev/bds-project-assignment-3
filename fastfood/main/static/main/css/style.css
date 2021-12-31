@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #9c0b2b;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar a {
+    color: #fff;
+    border-bottom: 5px solid transparent;
+}
+
+.navbar a:hover {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.navbar a:active {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.main {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.main h1 {
+    color: #dd1438;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main .btn-color {
+    background-color: #0e1c36;
+    color: #fff;
+}
+
+.main .profile-image-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.main .cardbody-color {
+    background-color: #ebf2fa;
+}
+
+.main a {
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+django==4.0
+django-crispy-forms==1.13.0
+psycopg2==2.9.2
+argon2-cffi==21.3.0
+pip-licenses==3.5.3
+django-phonenumber-field==6.0.0
+django-phonenumbers==1.0.1
+Pillow==8.4.0
